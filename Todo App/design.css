@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #51abcb;
+  
+}
+.todo{
+    width: 50%;
+    height: 50vh;
+    margin-top: 40px;
+    background-color: beige;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+.todo input{
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 5%;
+    height: 40px;
+    padding: 10px;
+
+}
+.todo button{
+    margin-left: 10px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+}
+
+#display-data{
+    width: 100%;
+    margin-right: 23%;
+}
+#display-data li{
+    margin-top: 10px;
+    font-size: 22px;
+    margin-right: 23%;
+}
+li a {
+    cursor: pointer;
+    float: right;
+    font-size: 25px;
+}
+li a:hover{
+    background-color: orange;
+    border-radius: 50%;
+}
